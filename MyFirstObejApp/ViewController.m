@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.userInteractionEnabled = true;
+    //self.account = [NSString init] ;
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    //NSLog(@"hi");
 }
 
 - (void)didReceiveMemoryWarning {
